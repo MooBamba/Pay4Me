@@ -541,7 +541,354 @@
 
 .answer p{
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5rem;
     color: #5C5C6E;
+}
+
+.blog-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3.125rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.05);
+}
+
+.blog-heading{
+    width: fit-content;
+    height: auto;
+}
+
+.blog-heading h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.top-bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 3.125rem;
+}
+
+.blog-cards-top, .blog-cards-bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.blog-card-1{
+   width: 26.2%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   row-gap: 0.75rem;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
+
+.card-image img{
+    width: 392px;
+    height: 262px;
+}
+
+.des{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 3rem;
+    background-color: #F3FAF4;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    border-radius: 1.5rem;
+}
+
+.blog-card-1-description{
+    width: 100%;
+    height: auto;
+    padding: 1.25rem 1.875rem 0 1.875rem;
+}
+
+.blog-card-1-description p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.line{
+    width: 95%;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.call-to-action{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.25rem;
+    padding: 0 1.875rem 1.25rem 1.875rem;
+}
+
+.read-article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.875rem;
+    column-gap: 1rem;
+}
+
+.read-article p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.8);
+}
+
+.download-section{
+    width: 83%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgba(212, 255, 166, 1), rgba(174, 226, 116, 1));
+    border: 1px solid rgba(51, 51, 51, 0.25);
+    border-radius: 2.188rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.05);
+}
+
+.left-side{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 4.375rem;
+    padding-left: 4rem;
+}
+
+.h1-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.938rem;
+}
+
+.h1-body h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #333333;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+}
+
+.body p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(51, 51, 51, 0.8);
+}
+
+.barcode-playstore{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.938rem;
+}
+
+.barcode{
+    width: fit-content;
+    height: auto;
+}
+
+.barcode img{
+    width: 179px;
+    height: 179px;
+}
+
+.download-links{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.938rem;
+}
+
+.google-play, .apple-store{
+    width: fit-content;
+    height: auto;
+}
+
+.google-play img, .apple-store img{
+    width: 197px;
+    height: 64px;
+}
+
+.right-side{
+    width: fit-content;
+    height: auto;
+}
+
+.right-side img{
+    width: 666px;
+    height: 476px;
+}
+
+.footer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer-left{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.logo, .date-inc{
+    width: fit-content;
+    height: auto;
+}
+
+.logo img{
+    width: 206.73px;
+    height: 130px;
+}
+
+.date-inc p{
+    font-size: 1rem;
+    color: rgba(51, 51, 51, 0.7);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.footer-right{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 3.125rem;
+}
+
+.footer-heading-links{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.header-link{
+    width: fit-content;
+    height: auto;
+}
+
+.header-link h3{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+.footer-links{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.625rem;
+}
+
+.links{
+    width: auto;
+    height: auto;
+}
+
+.links p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.socials-links{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.875rem;
+}
+
+.store-links{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
 }
